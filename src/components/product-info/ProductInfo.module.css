@@ -1,0 +1,37 @@
+.item {
+  display: flex;
+}
+.image {
+  border-radius: 10px 10px 0px 0px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 320px;
+  margin-right: 20px;
+}
+.info {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-bottom: 5px;
+}
+.description {
+  max-width: 600px;
+  margin-top: 15px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.category {
+  margin: 10px 0px;
+  font-size: 25px;
+}
+.rating {
+  font-size: 20px;
+  flex: 1 1 auto;
+}
+.price {
+  font-size: 28px;
+}

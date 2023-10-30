@@ -1,0 +1,33 @@
+.input {
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.add_button {
+  cursor: pointer;
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+  color: white;
+}
+
+.add_button:hover {
+  transform: scale(1.1);
+  /* background-color: rgb(31, 52, 52); */
+  border: 1px solid cyan;
+}
+
+.add_button:focus {
+  border: 1px solid cyan;
+  /* background-color: rgb(31, 52, 52); */
+}
